@@ -14,7 +14,7 @@ import app.revanced.util.exception
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 
 @Patch(
-    compatiblePackages = [CompatiblePackage("com.instagram.android")],
+    compatiblePackages = [CompatiblePackage("com.instafel.android")],
 )
 @Deprecated("This patch is not needed anymore.", replaceWith = ReplaceWith("HideAdsPatch"))
 @Suppress("unused")
